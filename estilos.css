@@ -9,7 +9,7 @@ h1 {
     font-size: 17px;
 }
 
-.logo1 {
+.logo1{
         width: 500px;
         height: 300px;
 }
@@ -19,7 +19,7 @@ h1 {
     height: 250;
 }
 
-/* body{ 
+   body{   
     margin: 0%;
     min-height: 100vh;
     background-image: url(imagenes/variedad\ tenis.jpg);
@@ -27,24 +27,22 @@ h1 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-} */
+} 
 
-/* body:before {
+  body:before {  
     content: "";
     width: 100%;
-    min-height: 305vh;
+    height: 100vh;
     position: absolute;
     top: 0%;
     left: 0%;
-
+    
     background: linear-gradient(90deg, rgb(81, 155, 234), #c3a2e5);
     opacity: 0.7;
     z-index: -1;
-} */
+}  
 
-*{
-    background-color: coral;
-}
+
 
 body{
     margin: 3px 15px;
@@ -53,11 +51,21 @@ body{
 a{
     color: black;
     font-size: 35px;
-    text-decoration: none;
-    padding: 0px 100px;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 a:hover{
     background-color: aquamarine;
 }
+
+.img1, .logo1, .logop, .logo3{
+    display: block;
+    margin: auto;
+
+}
+
+/* *{
+    background-color: rgb(31, 171, 125);
+} */
